@@ -1,0 +1,36 @@
+<h1>Edycja</h1>
+
+<% form_for(@question) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label 'Tresc' %><br />
+    <%= f.text_field :content %>
+  </p>
+  <p>
+    <%= f.label 'a' %><br />
+    <%= f.text_field :a1 %>
+  </p>
+  <p>
+    <%= f.label 'b' %><br />
+    <%= f.text_field :a2 %>
+  </p>
+  <p>
+    <%= f.label 'c' %><br />
+    <%= f.text_field :a3 %>
+  </p>
+  <p>
+    <%= f.label 'd' %><br />
+    <%= f.text_field :a4 %>
+  </p>
+  <p>
+    <%= f.label 'Poprawna odpowiedz' %><br />
+    <%= f.text_field :good_answer %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @question %> |
+<%= link_to 'Back', questions_path %>

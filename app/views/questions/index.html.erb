@@ -1,0 +1,22 @@
+<h1>Pytania</h1>
+
+<table>
+  <tr>
+    <th>Treść</th>
+    <th>Poprawna odpowiedź</th>
+  </tr>
+
+<% @questions.each do |question| %>
+  <tr>
+    <td><%=h question.content %></td>
+    <td><%=h question.good_answer %></td>
+    <td><%= link_to 'Pokaz', question %></td>
+    <td><%= link_to 'Edytuj', edit_question_path(question) %></td>
+    <td><%= link_to 'Usun', question, :confirm => 'Jestes pewny?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Nowe pytanie', new_question_path %>

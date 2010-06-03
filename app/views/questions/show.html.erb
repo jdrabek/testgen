@@ -1,0 +1,33 @@
+<p>
+  <b>Content:</b>
+  <%=h @question.content %>
+</p>
+
+<p>
+  <b>A1:</b>
+  <%=h @question.a1 %>
+</p>
+
+<p>
+  <b>A2:</b>
+  <%=h @question.a2 %>
+</p>
+
+<p>
+  <b>A3:</b>
+  <%=h @question.a3 %>
+</p>
+
+<p>
+  <b>A4:</b>
+  <%=h @question.a4 %>
+</p>
+
+<p>
+  <b>Good answer:</b>
+  <%=h @question.good_answer %>
+</p>
+
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>

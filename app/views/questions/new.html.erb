@@ -1,0 +1,31 @@
+<h1>Nowe pytanie</h1>
+
+<% form_for(@question) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label 'Tresc' %><br />
+    <%= f.text_area :content %>
+  </p>
+  <p>
+    <%= f.label 'Odpowiedz a' %><br />
+    <%= f.text_field :a1 %><%= radio_button("question", "good_answer", 'a1') %> 
+  </p>
+  <p>
+    <%= f.label 'Odpowiedz b' %><br />
+    <%= f.text_field :a2 %><%= radio_button("question", "good_answer", 'a2') %>
+  </p>
+  <p>
+    <%= f.label 'Odpowiedz c' %><br />
+    <%= f.text_field :a3 %><%= radio_button("question", "good_answer", 'a3') %>
+  </p>
+  <p>
+    <%= f.label 'Odpowiedz d' %><br />
+    <%= f.text_field :a4 %><%= radio_button("question", "good_answer", 'a4') %>
+  </p>
+  <p>
+    <%= f.submit 'Dodaj' %>
+  </p>
+<% end %>
+
+<%= link_to 'Powrot', questions_path %>

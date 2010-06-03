@@ -1,0 +1,624 @@
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 02:07:58) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions"  ORDER BY RANDOM() LIMIT 10):
+  app/controllers/test_controller.rb:8:in `new'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing TestController#index (for 91.149.228.11 at 2010-06-01 02:08:02) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/test_controller.rb:4:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing TestController#index (for 91.149.228.11 at 2010-06-01 02:08:04) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/test_controller.rb:4:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing TestController#index (for 91.149.228.11 at 2010-06-01 02:13:40) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/test_controller.rb:4:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 02:13:47) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/questions_controller.rb:5:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 02:17:18) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/questions_controller.rb:5:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 02:17:19) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/questions_controller.rb:5:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 02:17:20) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/questions_controller.rb:5:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 02:17:20) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/questions_controller.rb:5:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 02:17:21) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/questions_controller.rb:5:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 02:17:22) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/questions_controller.rb:5:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 02:19:40) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions"  ORDER BY RANDOM() LIMIT 10):
+  app/controllers/test_controller.rb:8:in `new'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 17:53:10) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions"  ORDER BY RANDOM() LIMIT 10):
+  app/controllers/test_controller.rb:8:in `new'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing TestController#index (for 91.149.228.11 at 2010-06-01 17:53:14) [GET]
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such table: questions: SELECT * FROM "questions" ):
+  app/controllers/test_controller.rb:4:in `index'
+
+Rendering /home/users/mith/testgen/public/500.html (500 Internal Server Error)
+
+
+Processing TestController#index (for 91.149.228.11 at 2010-06-01 17:57:51) [GET]
+Rendering template within layouts/questions
+Rendering test/index
+Completed in 83ms (View: 82, DB: 0) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 17:57:52) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:06) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:15) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:15) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:16) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:16) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:16) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:16) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:16) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:16) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing TestController#show (for 91.149.228.11 at 2010-06-01 17:58:17) [GET]
+  Parameters: {"id"=>"questions"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index, new, and results):
+  
+
+Rendering /home/users/mith/testgen/public/404.html (404 Not Found)
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 17:58:23) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#new (for 91.149.228.11 at 2010-06-01 17:58:26) [GET]
+Rendering template within layouts/questions
+Rendering questions/new
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://rails.d3v.eu/questions/new]
+
+
+Processing QuestionsController#create (for 91.149.228.11 at 2010-06-01 18:02:59) [POST]
+  Parameters: {"commit"=>"Dodaj", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "question"=>{"good_answer"=>"a3", "a1"=>"Atramentowa A", "a2"=>"Atramentowa B", "a3"=>"Laserowa A", "content"=>"Na podstawie oferty cenowej zaproponuj klientowi drukarkę o najniższych kosztach rocznej eksploatacji, drukującemu dziennie 200 stron przez 20 dni roboczych w miesiącu.\r\n\r\n[img]http://www.testy.egzaminzawodowy.info/images_testy/t_teleinf_probny_15.png[/img]", "a4"=>"Atramentowa B"}}
+Redirected to http://rails.d3v.eu/questions/1
+Completed in 31ms (DB: 0) | 302 Found [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#show (for 91.149.228.11 at 2010-06-01 18:03:00) [GET]
+  Parameters: {"id"=>"1"}
+Rendering template within layouts/questions
+Rendering questions/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://rails.d3v.eu/questions/1]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 18:03:06) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing TestController#index (for 91.149.228.11 at 2010-06-01 18:03:20) [GET]
+Rendering template within layouts/questions
+Rendering test/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:03:21) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:16) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:16) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:17) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:19) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:20) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:20) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:21) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:14:21) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:16:36) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:16:37) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:16:38) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 4ms (View: 3, DB: 0) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:17:09) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 18ms (View: 14, DB: 1) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:17:44) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Laserowa A"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:17:56) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 5ms (View: 4, DB: 1) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:17:59) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Atramentowa A"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:18:02) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Laserowa A"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 18:18:28) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#new (for 91.149.228.11 at 2010-06-01 18:19:28) [GET]
+Rendering template within layouts/questions
+Rendering questions/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://rails.d3v.eu/questions/new]
+
+
+Processing QuestionsController#create (for 91.149.228.11 at 2010-06-01 18:20:52) [POST]
+  Parameters: {"commit"=>"Dodaj", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "question"=>{"good_answer"=>"a4", "a1"=>"dzielące sieć lokalną na podsieci", "a2"=>"łączące komputery w sieci lokalnej przewodowe", "a3"=>"łączące sieć lokalną z siecią rozległ\304\205", "content"=>"Access Point to urządzenie", "a4"=>"łączące sieć bezprzewodową z siecią przewodową."}}
+Redirected to http://rails.d3v.eu/questions/2
+Completed in 34ms (DB: 0) | 302 Found [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#show (for 91.149.228.11 at 2010-06-01 18:20:52) [GET]
+  Parameters: {"id"=>"2"}
+Rendering template within layouts/questions
+Rendering questions/show
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://rails.d3v.eu/questions/2]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-01 18:20:54) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 10ms (View: 8, DB: 1) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing TestController#index (for 91.149.228.11 at 2010-06-01 18:21:09) [GET]
+Rendering template within layouts/questions
+Rendering test/index
+Completed in 2ms (View: 1, DB: 1) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:21:10) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:21:29) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Laserowa A", "2"=>"łączące sieć bezprzewodową z siecią przewodową."}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-01 18:21:35) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 7ms (View: 6, DB: 1) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:21:37) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Atramentowa B", "2"=>"dzielące sieć lokalną na podsieci"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 4ms (View: 2, DB: 1) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:22:18) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Atramentowa B", "2"=>"dzielące sieć lokalną na podsieci"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 45ms (View: 42, DB: 1) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:22:43) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Atramentowa B", "2"=>"dzielące sieć lokalną na podsieci"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 13ms (View: 4, DB: 1) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:23:07) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Atramentowa B", "2"=>"dzielące sieć lokalną na podsieci"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:23:10) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Atramentowa B", "2"=>"dzielące sieć lokalną na podsieci"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-01 18:23:11) [POST]
+  Parameters: {"commit"=>"Wyslij", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"1"=>"Atramentowa B", "2"=>"dzielące sieć lokalną na podsieci"}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-02 00:56:56) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 56ms (View: 50, DB: 2) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-02 00:56:57) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 31ms (View: 28, DB: 2) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-02 00:56:59) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 71ms (View: 68, DB: 2) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-02 00:57:02) [POST]
+  Parameters: {"x"=>"74", "y"=>"3", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"23"=>"100 Mbps", "8"=>"taryfikacji (zaliczania).", "14"=>"oznacza niebezpieczeństwo pojawienia się promieniowania laserowego.", "27"=>"Sterownika DMA", "17"=>"o przekroju 0,52 mm2  dla sieci niewrażliwych na zakłócenie elektromagnetyczne.", "30"=>"drukarka ze złączem RS.", "18"=>"3,0 z\305\202", "20"=>"zbocze opadające.", "32"=>"generatora RC", "5"=>"Za pomocą kciuka na szyi w okolicach krtani."}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 15ms (View: 3, DB: 4) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-02 00:57:06) [POST]
+  Parameters: {"x"=>"74", "y"=>"3", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"23"=>"100 Mbps", "8"=>"taryfikacji (zaliczania).", "14"=>"oznacza niebezpieczeństwo pojawienia się promieniowania laserowego.", "27"=>"Sterownika DMA", "17"=>"o przekroju 0,52 mm2  dla sieci niewrażliwych na zakłócenie elektromagnetyczne.", "30"=>"drukarka ze złączem RS.", "18"=>"3,0 z\305\202", "20"=>"zbocze opadające.", "32"=>"generatora RC", "5"=>"Za pomocą kciuka na szyi w okolicach krtani."}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 12ms (View: 2, DB: 3) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-02 00:57:07) [POST]
+  Parameters: {"x"=>"74", "y"=>"3", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"23"=>"100 Mbps", "8"=>"taryfikacji (zaliczania).", "14"=>"oznacza niebezpieczeństwo pojawienia się promieniowania laserowego.", "27"=>"Sterownika DMA", "17"=>"o przekroju 0,52 mm2  dla sieci niewrażliwych na zakłócenie elektromagnetyczne.", "30"=>"drukarka ze złączem RS.", "18"=>"3,0 z\305\202", "20"=>"zbocze opadające.", "32"=>"generatora RC", "5"=>"Za pomocą kciuka na szyi w okolicach krtani."}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 12ms (View: 2, DB: 3) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-02 00:57:08) [POST]
+  Parameters: {"x"=>"74", "y"=>"3", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"23"=>"100 Mbps", "8"=>"taryfikacji (zaliczania).", "14"=>"oznacza niebezpieczeństwo pojawienia się promieniowania laserowego.", "27"=>"Sterownika DMA", "17"=>"o przekroju 0,52 mm2  dla sieci niewrażliwych na zakłócenie elektromagnetyczne.", "30"=>"drukarka ze złączem RS.", "18"=>"3,0 z\305\202", "20"=>"zbocze opadające.", "32"=>"generatora RC", "5"=>"Za pomocą kciuka na szyi w okolicach krtani."}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 12ms (View: 2, DB: 3) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-02 00:57:15) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 26ms (View: 23, DB: 2) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#results (for 91.149.228.11 at 2010-06-02 00:58:26) [POST]
+  Parameters: {"x"=>"22", "y"=>"10", "authenticity_token"=>"McB2MmgL3/u+VmRfwGYB8UVBJup6zjOhUu/s+nEvL/k=", "answer"=>{"12"=>"Światłowód.", "8"=>"enkapsulacji.", "25"=>"Na bębnie tworzy się elektryczna reprezentacja drukowanego obrazu, miejsca  naelektryzowane przyciągają cząsteczki tonera, który następnie przenoszony jest na papier.", "16"=>"ipconfig", "30"=>"bramofon (domofon).", "3"=>"2,8 kWh", "21"=>"AMD Athlon 64", "4"=>"Taryfa A", "10"=>"48,90 z\305\202", "5"=>"Opuszkami palców na szyi w okolicy krtani."}}
+Rendering template within layouts/questions
+Rendering test/results
+Completed in 12ms (View: 2, DB: 3) | 200 OK [http://rails.d3v.eu/test/results]
+
+
+Processing TestController#new (for 87.205.28.45 at 2010-06-02 00:58:32) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 28ms (View: 25, DB: 2) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-02 00:59:03) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 29ms (View: 26, DB: 2) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 87.205.28.45 at 2010-06-02 01:01:16) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 39ms (View: 36, DB: 2) | 200 OK [http://rails.d3v.eu/test/new]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-02 15:13:08) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 185ms (View: 62, DB: 123) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 91.149.228.11 at 2010-06-02 23:33:36) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 101ms (View: 27, DB: 72) | 200 OK [http://rails.d3v.eu/]

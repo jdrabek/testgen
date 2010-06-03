@@ -1,0 +1,17 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  content: MyString
+  a1: MyString
+  a2: MyString
+  a3: MyString
+  a4: MyString
+  good_answer: MyString
+
+two:
+  content: MyString
+  a1: MyString
+  a2: MyString
+  a3: MyString
+  a4: MyString
+  good_answer: MyString

@@ -1,0 +1,16 @@
+<div class="result">Twój wynik: <b><%= @points %>/<%= @correct.count %></b></div>
+<%  @correct.each_with_index do |correct,index| %>
+ <div class="pytanie">
+  <h1>Pytanie nr: <%= index+1 %>:</h1>
+   <div class="content"><%= correct["content"].bbcode_to_html! %></div>
+   <div class="selected">Wybrałeś: <%= correct["selected"] %>
+    <% if correct["selected"] != correct["good"] then %>
+      <img src="/images/incorrect.png" alt="wrong"/>
+      <div class="correct">Prawidłowa odpowiedź: <%= correct["good"] %></div>
+    <% else %>
+      <img src="/images/correct.png" alt="correct" />
+    <% end %>
+    </div>
+  </div>
+      
+<% end %>

@@ -1,0 +1,20 @@
+<% form_for :test, @test, :html => {:id => 'testform'}, :url => { :action => "results" } do |f| %>
+      <% @q.each do |elem|  %>
+         <div class="pytanie">   
+          <div class="content"><%= elem.content.bbcode_to_html! %></div>
+          <ul>
+            <% tab = [ elem.a1 , elem.a2 , elem.a3 , elem.a4 ]; 4.times do |sth| %>
+              <% r = rand(tab.count); foo=tab.delete_at(r) ; if sth == 0 then %>
+                 <li><%= radio_button('answer',elem.id,foo, :checked => true) %><%= foo  %></li>
+              <% else %>
+                 <li><%= radio_button('answer',elem.id,foo) %><%= foo  %></li>
+              <% end %>
+            <% end %>
+          </ul>
+         </div>
+      <% end %>
+   
+<%= image_submit_tag '/images/submit.png', :id => 'submitimg' %>
+
+<% end %>
+
