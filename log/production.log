@@ -622,3 +622,106 @@ Processing TestController#new (for 91.149.228.11 at 2010-06-02 23:33:36) [GET]
 Rendering template within layouts/questions
 Rendering test/new
 Completed in 101ms (View: 27, DB: 72) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 83.30.210.8 at 2010-06-07 13:25:29) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 464ms (View: 221, DB: 183) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 95.48.205.210 at 2010-06-09 09:44:22) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 233ms (View: 121, DB: 111) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing QuestionsController#index (for 95.48.205.210 at 2010-06-09 09:44:31) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 41ms (View: 13, DB: 0) | 401 Unauthorized [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 95.48.205.210 at 2010-06-09 09:44:43) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 0, DB: 0) | 401 Unauthorized [http://rails.d3v.eu/questions]
+
+
+Processing TestController#new (for 95.48.205.210 at 2010-06-09 09:45:13) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 98ms (View: 61, DB: 35) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing TestController#new (for 95.48.205.210 at 2010-06-09 09:45:15) [GET]
+Rendering template within layouts/questions
+Rendering test/new
+Completed in 51ms (View: 48, DB: 2) | 200 OK [http://rails.d3v.eu/]
+
+
+Processing QuestionsController#index (for 95.48.205.210 at 2010-06-09 09:45:32) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 0, DB: 0) | 401 Unauthorized [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 95.48.205.210 at 2010-06-09 09:45:37) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 0, DB: 0) | 401 Unauthorized [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 95.48.205.210 at 2010-06-09 09:45:44) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 552ms (View: 485, DB: 4) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#new (for 95.48.205.210 at 2010-06-09 09:45:51) [GET]
+Rendering template within layouts/questions
+Rendering questions/new
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://rails.d3v.eu/questions/new]
+
+
+Processing QuestionsController#edit (for 95.48.205.210 at 2010-06-09 09:47:34) [GET]
+  Parameters: {"id"=>"20"}
+Rendering template within layouts/questions
+Rendering questions/edit
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://rails.d3v.eu/questions/20/edit]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-10 21:15:17) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 1ms (View: 0, DB: 0) | 401 Unauthorized [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-10 21:15:19) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 197ms (View: 111, DB: 83) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-10 21:48:14) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 116ms (View: 110, DB: 4) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-10 21:48:18) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 117ms (View: 111, DB: 4) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-10 21:48:18) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 179ms (View: 172, DB: 4) | 200 OK [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-11 00:16:32) [GET]
+Filter chain halted as [:authenticate] rendered_or_redirected.
+Completed in 3ms (View: 0, DB: 1) | 401 Unauthorized [http://rails.d3v.eu/questions]
+
+
+Processing QuestionsController#index (for 91.149.228.11 at 2010-06-11 00:16:38) [GET]
+Rendering template within layouts/questions
+Rendering questions/index
+Completed in 171ms (View: 162, DB: 4) | 200 OK [http://rails.d3v.eu/questions]

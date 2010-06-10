@@ -1,5 +1,3 @@
-#ifndef QUESTIONS_CONTROLLER_H
-#define QUESTIONS_CONTROLLER_H
 class QuestionsController < ApplicationController
 before_filter :authenticate
 
@@ -88,15 +86,16 @@ before_filter :authenticate
     end
   end
 
+
 protected
 
   def authenticate
     authenticate_or_request_with_http_basic do |username, password|
-      username == "asdf" && password == "zxc"
+        u=User.find(:first)
+        u.username == username && u.password == password
     end
   end
 
 
 
 end
-#endif

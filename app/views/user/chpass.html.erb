@@ -1,0 +1,6 @@
+    <% form_for :user, @user, :url => { :action => "chpass2" } do |f| %>
+      Nazwa użytkownika:      <%= f.text_field :username %>
+      Haslo:                  <%= f.text_field :password %>
+      <%= submit_tag 'Zmien' %>
+    <% end %>
+
