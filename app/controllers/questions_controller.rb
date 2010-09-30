@@ -1,5 +1,29 @@
+require 'csv'
+
+class Array
+  def to_h
+    Hash[*self]
+  end
+end
+
+
 class QuestionsController < ApplicationController
 before_filter :authenticate
+
+  def upload
+     #render :file => 'app/views/questions/upload.html.erb'
+  end
+
+  def uploadFile
+    Question.find(:all).each {|x| x.delete }
+        DataFile.save( params[:upload]).each { |row| 
+      if row[0] != 'pytanie' then
+        Question.new(:content => row[0], :a1 => row[1],:a2 => row[2],:a3 => row[3],:a4 => row[4], :good_answer => row[5] ).save 
+      end
+    }
+    @q = Question.find(:all)
+
+  end
 
   # GET /questions
   # GET /questions.xml
